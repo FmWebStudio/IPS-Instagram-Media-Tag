@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Instagram Mediatag
+ * By Recouse(Fm-Web)
+ * http://fm-web.uz
+-->
+<mediatagexport>
+  <mediataggroup>
+    <mediatag>
+      <mediatag_name>Instagram</mediatag_name>
+      <mediatag_match>http{1}://instagram.com/p/{2}/</mediatag_match>
+      <mediatag_replace><![CDATA[<iframe src="http$1://instagram.com/p/$2/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>]]></mediatag_replace>
+    </mediatag>
+  </mediataggroup>
+</mediatagexport>
